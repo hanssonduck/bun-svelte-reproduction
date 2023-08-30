@@ -1,0 +1,9 @@
+{
+	"name": "bun-svelte-reproduction",
+	"workspaces": [
+		"packages/*"
+	],
+	"scripts": {
+		"dev": "bun --cwd packages/app dev"
+	}
+}
